@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Link from "next/link";
 import Image from 'next/image'
 import axios from "axios";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import section from "../../../public/assests/Section.png"
 
 const Login = () => {
@@ -26,11 +26,11 @@ const Login = () => {
   }
 
   return (
-    <div className='flex flex-col items-center justify-center   text-center'>
+    <div className="flex flex-col items-center justify-center   text-center">
       <div className="flex w-full h-full">
-        <div className='w-1/2 items-center lg:items-center justify-center lg:justify-center '>
-          <h1 className='font-bold mt-10 mx-9 lg:mx-10'>Welcome Back</h1>
-          <p className='text-gray-400 text-sm"'>Welcome back! please enter your details</p>
+        <div className="w-1/2 items-center lg:items-center justify-center lg:justify-center ">
+          <h1 className="font-bold mt-10 mx-9 lg:mx-10">Welcome Back</h1>
+          <p className="text-gray-400 text-sm">Welcome back! please enter your details</p>
           <div className='flex flex-col mt-16 mx-6 lg:mx-11'>
             <label className=" text-left text-gray-400 text-sm"
             >Email*</label>
