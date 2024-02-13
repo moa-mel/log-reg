@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Link from "next/link";
 import Image from 'next/image'
 import axios from "axios";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import section from "../../../public/assests/Section.png"
 
 const Login = () => {
@@ -53,7 +53,7 @@ const Login = () => {
               <input type='checkbox' name='remember' className='mr-1' />
               Remember for 30 days
             </label>
-            <a href='#' className='text-l text-sm'>Forgot Password</a>
+            <a href="#" className='text-l text-sm'>Forgot Password</a>
           </div>
           <button className="rounded-xl w-80 mx-13 mt-12 h-10 bg-cyan-900 text-white hover:bg-cyan-900 text-center"
             onClick={onLogin}
