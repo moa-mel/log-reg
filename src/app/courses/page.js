@@ -23,7 +23,7 @@ import notepad from "../../../public/assests/Notepad.png"
 import image2 from "../../../public/assests/Image (1).png"
 
 
-const page = () => {
+const Courses = () => {
   return (
     <div>
       <Disclosure as="nav">
@@ -86,4 +86,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Courses

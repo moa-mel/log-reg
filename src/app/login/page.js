@@ -7,7 +7,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import section from "../../../public/assests/Section.png"
 
-const page = () => {
+const Login = () => {
   const router = useRouter();
   const [user, setUser] = useState({
     email: "",
@@ -72,4 +72,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Login
